@@ -1,0 +1,4 @@
+deploy:
+- mkdir /tmp/foo
+- cp docker-compose.yml /tmp/foo/docker-compose.yml
+- cd /tmp/foo/docker-compose.yml; okteto stack deploy
